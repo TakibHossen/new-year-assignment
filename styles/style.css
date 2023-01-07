@@ -1,0 +1,161 @@
+.common-header{
+    font-family: Work Sans;
+}
+/*banner */
+.banner-head{
+    background-image: url(../images/banner/banner3.png);
+    width: 100%;
+    height: 500px;
+}
+.banner{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    padding: 50px 90px;
+}
+.banner-btn{
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+        border: 0;
+        padding: 19px 38px;
+        height: 64;
+        border-radius: 5px;
+        background: gray;
+}
+/*failure*/
+.failure-header{
+    margin-left: 40px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.failure{
+    display: flex;
+    align-items: center;
+    left: 200px;
+    right: 300px;
+    height: 900px;
+    
+}
+.failure-description{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    color: black;
+}
+.failure-head{
+    text-align: justify;
+}
+.failure-items{
+    list-style: none;
+    
+}
+/*plan*/
+.plan-catalog{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.plan-head{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.plan-uganda{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+.plan-one{
+    margin-left: 40px;
+    margin-bottom: 30px;
+    justify-items: center;
+}
+.plan-two{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.plan-three{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.plan-four{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.mindset{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    /* align-items: center; */
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    /* left: 80px; */
+}
+.overlay-mindset{
+    background-image: url("../images/gradient1.png");
+    background-size: cover;
+    background-repeat: no-repeat;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* z-index: 10; */
+}
+.mindset-head{
+    color: aquamarine;
+    margin-left: 50px;
+    padding: 70px;
+}
+.mindset-button{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 50px;
+    border: 0;
+    /* padding: 19px 40px;  */
+    height: 45px;
+    left: 25%;
+    top: 60px;
+    border-radius: 10px;
+    background: gray;
+    /* margin-left: 50 px; */
+}
+/* contact */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: brown;
+    top: 200px;
+    text-align: left;
+}
+.footer-email {
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    padding: 20px 30px;
+}
+.footer-btn{
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 19px 38px;
+    height: 64;
+    border-radius: 5px;
+    background: gray;
+}
+.overlay-contact{
+    left: 60px;
+    padding-left: 50px;
+}
+.overlay-contact .a{
+    gap: 30 px;
+}
